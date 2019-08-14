@@ -13,14 +13,13 @@ int main()
    }
    cout<<"A teper vvedi svoyu shkolu: ";
    cin>>a;
-   for(int i=0;i<=10;i++)
+   for(int i=0;i<10;i++)
    {
-	  
-      if((a==SchoolList[i])&&(i<10))
+      if(a==SchoolList[i])
       {
           cout<<"Ya znayu etu shkolu!"<<endl;
-           i=11; // -_-
+           i=10; // -_-
       }
-      if (i==10) cout<<"Ya ne znayu etu shkolu!"<<endl;
+      if (i==9) cout<<"Ya ne znayu etu shkolu!"<<endl;
    }
 }
