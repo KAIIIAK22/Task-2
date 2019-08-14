@@ -18,7 +18,7 @@ int main()
       if(a==SchoolList[i])
       {
           cout<<"Ya znayu etu shkolu!"<<endl;
-          break;
+           i=10; // -_-
       }
       if (i==9) cout<<"Ya ne znayu etu shkolu!"<<endl;
    }
